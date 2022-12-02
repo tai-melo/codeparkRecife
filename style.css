@@ -2,10 +2,74 @@
 
 body {
     background-color: rgb(237, 230, 230);
+    list-style: none;
+}
+
+
+header {
+    padding: 20px;
+}
+
+.header_ul {
+    display: flex;
+    justify-content: space-between ;
+    gap: 15px
+}
+
+a {
+    list-style: none;
+    
+}
+
+a:hover {
+    color: red;
+    
 }
 
 main {
+    
     padding: 15px;
     margin: auto;
     width: 1000px;
+}
+
+.home_body_main {
+    background-color: white; 
+    border-radius: 8px;
+}
+
+.all_header {
+    background:rgb(240, 239, 239) ; 
+    border-radius: 5px; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between ;
+
+}
+
+
+
+
+
+.marcozero_header {
+    background:rgb(240, 239, 239) ; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+.home_span {
+    font-weight: bold;
+}
+
+.all_footer {
+    background-color: rgb(181, 181, 181); 
+    border-radius: 5px; 
+    padding: 20px;
+    
+}
+
+.all_footer_ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
