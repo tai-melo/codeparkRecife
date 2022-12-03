@@ -27,7 +27,7 @@ a:hover {
 }
 
 main {
-    
+    background-color: white;
     padding: 15px;
     margin: auto;
     width: 1000px;
@@ -35,6 +35,11 @@ main {
 
 .home_body_main {
     background-color: white; 
+    border-radius: 8px;
+}
+
+.home_header {
+    background-color: rgb(228, 209, 209); 
     border-radius: 8px;
 }
 
