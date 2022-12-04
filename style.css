@@ -38,14 +38,12 @@ main {
     border-radius: 8px;
 }
 
-.home_header {
-    background-color: rgb(228, 209, 209); 
-    border-radius: 8px;
-}
+
+
 
 .all_header {
-    background:rgb(240, 239, 239) ; 
-    border-radius: 5px; 
+    background-color: rgb(228, 209, 209); 
+    border-radius: 8px;
     padding: 10px;
     display: flex;
     justify-content: space-between ;
